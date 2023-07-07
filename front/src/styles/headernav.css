@@ -1,0 +1,26 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  width: 100%;
+}
+.leftContainer {
+  width: 50%;
+}
+.leftContainer img {
+  width: 50vw;
+}
+
+.rightContainer {
+  width: 50%;
+  padding-left: 5vw;
+}
+.rightContainer a {
+  align-items: center;
+  width: 10px;
+  color: chocolate;
+  padding-left: 5vw;
+  padding-right: 6vw;
+}
