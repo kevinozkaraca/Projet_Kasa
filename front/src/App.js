@@ -1,18 +1,23 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// Import des pages
 import Home from './pages/Home';
 import Logement from './pages/Logement';
 import Apropos from './pages/Apropos';
 import Error from './pages/Error';
 import HeaderNav from './components/HeaderNav';
 import Footer from './components/Footer';
-import "./styles/headernav.css";
-import "./styles/App.css";
-
+// Import des fichiers CSS
+import "./styles/headerNav.css";
+import "./styles/app.css";
+import "./styles/footer.css";
+import "./styles/home.css";
+import "./styles/logement.css";
+import "./styles/aPropos.css";
+import "./styles/error.css";
 
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
         <HeaderNav />
         <Routes>

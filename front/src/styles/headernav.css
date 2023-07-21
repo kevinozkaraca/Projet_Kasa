@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a;
   color: white;
   width: 100%;
 }
@@ -20,7 +19,9 @@
 .rightContainer a {
   align-items: center;
   width: 10px;
+  font-size: 3.5vw;
   color: chocolate;
-  padding-left: 5vw;
-  padding-right: 6vw;
+  text-decoration: none;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }

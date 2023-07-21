@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 const navbar = () => {
     // header de navigation du site
     return (
@@ -10,8 +11,8 @@ const navbar = () => {
                     <img src="/images/logoKasa.png" alt="logo du site Kasa" />
                 </div>
                 <div className="rightContainer">
-                    <NavLink to="/">Accueil</NavLink>
-                    <NavLink to="/apropos">A propos</NavLink>
+                    <NavLink to="/">ACCUEIL</NavLink>
+                    <NavLink to="/apropos">A PROPOS</NavLink>
                 </div>
             </div>
         </div>
